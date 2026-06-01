@@ -1,0 +1,180 @@
+/* Style générale de la page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'segoe UI','Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4ff;
+    color: #222;
+}
+
+/* En-tête */
+header {
+    background-color: linear-grdient(135deg, #0033cc, #0055ff);
+    color: white;
+    text-align: center;
+    padding: 70px 20px 50px;
+}
+
+header img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #a0c4ff;
+    display: block;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+header p {
+    font-size: 1.1em;
+    color: #cce0ff;
+    font-style: italic;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+/* NAVIGATION */
+nav {
+    background-color: #0047ab;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+/* NAVIGATION */
+nav a {
+color: white;
+text-decoration: none;
+padding: 8px 18px;
+border-radius: 20px;
+font-size: 0.95em;
+font-weight: 600;
+transition: background 0.3s;
+}
+nav a:hover {
+    background-color: #1877f2;
+    color: white;
+}
+/* Section */
+section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px 40px;
+    max-width: 850px;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0,71,171,0.1); 
+}
+
+h2 {
+    color: #0047ab;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #1877f2;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h3 {
+    color: #1877f2;
+    font-size: 1.05em;
+    margin: 18px 0 6px;
+}
+
+p {
+    line-height: 1.8;
+    color: #444;
+    font-size: 0.97em;
+}
+/* PARCOURS */
+.parcour-item {
+    border-left: 4px solid #1877f2;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.parcour-item h3 {
+    margin-top: 0;
+}
+.annee {
+    font-size: 0.85em;
+    color: #888;
+    margin-bottom: 4px;
+}
+
+/*Liste compétences*/
+.competences-liste {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.competences-liste li {
+    background: linear-gradient(135deg, #0047ab, #1877f2);
+    color: white;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+/* === PROJET === */
+.projet-card {
+    background-color: #f0f4ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #0047ab;    
+}
+
+.projet-card h3 {
+    margin-top: 0;
+}
+/* contact */
+.contact-info p {
+    margin: 12px 0;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+}
+
+/* Lien */
+a {
+    color: #1a1a2e;
+    text-decoration: none;
+    font-weight: bold 600;
+}
+ 
+a:hover {
+    text-decoration: underline;
+}
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    font-size: 0.85em;
+    margin-top: 10px;
+}
