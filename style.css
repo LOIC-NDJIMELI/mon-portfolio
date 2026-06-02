@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'segoe UI','Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f0f4ff;
@@ -43,7 +43,7 @@ header h1 {
 
 header p {
     font-size: 1.1em;
-    color: #cce0ff;
+    color: #5988cf;
     font-style: italic;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
@@ -158,6 +158,30 @@ p {
     display: flex;
     align-items: center;
     gap: 10px;    
+}
+
+.projet-card a {
+  display: inline-block;
+  margin-top: 12px;
+  background-color: #0047ab;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.projet-card a:hover {
+  background-color: #1877f2;
+}
+
+.projet-card .btn-groupe {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
 }
 
 /* Lien */
