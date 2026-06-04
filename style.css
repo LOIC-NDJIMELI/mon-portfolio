@@ -56,11 +56,9 @@ nav {
     padding: 12px;
     flex-wrap: wrap;
     position: sticky;
+    scoll-margin-top: 60px;
     top: 0;
     z-index: 100;
-}
-section {
-    scoll-margin-top: 60px;
 }
 /* NAVIGATION */
 nav a {
