@@ -153,11 +153,21 @@ p {
 }
 /* contact */
 .contact-info p {
-    margin: 12px 0;
-    font-size: 1em;
-    display: flex;
-    align-items: center;
-    gap: 10px;    
+  margin: 12px 0;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+a {
+  color: #1877f2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .projet-card a {
