@@ -122,7 +122,7 @@ p {
 }
 
 /*Liste compétences*/
-.competences-liste {
+.compétences-liste {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -131,7 +131,7 @@ p {
     padding: 0;
 }
 
-.competences-liste li {
+.compétences-liste li {
     background: linear-gradient(135deg, #0047ab, #1877f2);
     color: white;
     padding: 8px 18px;
